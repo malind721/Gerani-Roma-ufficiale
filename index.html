@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gerani Bistrot • Tabacchi | Roma</title>
+
+    <meta name="description"
+        content="Gerani Bistrot • Tabacchi. Pizza, cucina italiana, rosticceria, bar e servizi nel cuore di Roma.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CURSOR -->
+    <div class="cursor"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- GOLD PARTICLES -->
+    <div class="particles" aria-hidden="true"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+
+        <a href="#home" class="brand">
+            <img src="images/LOGO-GERANI-NAVBAR.jpeg" alt="Gerani Bistrot">
+        </a>
+
+        <nav class="desktop-nav">
+            <a href="#home">Home</a>
+            <a href="#bistrot">Il Bistrot</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#servizi">Servizi</a>
+            <a href="#contatti">Dove siamo</a>
+        </nav>
+
+        <a href="tel:0623298169" class="nav-button">
+    PRENOTA
+</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Apri menu">
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+
+        <img src="images/LOGO-GERANI-NAVBAR.jpeg" alt="Gerani Bistrot">
+
+        <a href="#home">Home</a>
+        <a href="#bistrot">Il Bistrot</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#servizi">Servizi</a>
+        <a href="#contatti">Dove siamo</a>
+
+        <a href="#prenota" class="mobile-book">
+            PRENOTA UN TAVOLO
+        </a>
+
+    </div>
+
+    <div class="mobile-social">
+
+    <a
+        href="https://www.instagram.com/gerani_bistrot_tabacchi/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram"
+    >
+        <svg viewBox="0 0 24 24">
+            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+            <circle cx="12" cy="12" r="4"></circle>
+            <circle class="dot" cx="17.5" cy="6.5" r="1"></circle>
+        </svg>
+    </a>
+
+    <a
+        href="https://www.tiktok.com/@gerani.bistrot.ta"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="TikTok"
+    >
+        <svg viewBox="0 0 24 24">
+            <path d="M15.5 3c.2 2.2 1.5 3.8 3.5 4.2v3.1c-1.4-.1-2.6-.5-3.5-1.2v6.1c0 3.2-2.1 5.4-5.2 5.4-2.9 0-5.1-2-5.1-4.8 0-3 2.5-5 5.7-4.7v3.1c-1.4-.2-2.5.4-2.5 1.6 0 1 .8 1.7 1.9 1.7 1.2 0 2-.8 2-2.2V3h3.2z"></path>
+        </svg>
+    </a>
+
+</div>
+
+
+   <section class="hero-new" id="home">
+
+    <!-- SFONDO -->
+    <div class="hero-bg">
+        <img
+            src="images/PIATTI GERANI 1.jpeg"
+            alt="Piatti Gerani"
+        >
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <!-- CONTENUTO -->
+    <div class="hero-new-content">
+
+        <!-- LOGO -->
+        <div class="hero-new-logo">
+            <img
+                src="images/LOGO GERANI 1.jpeg"
+                alt="Gerani Bistrot Tabacchi"
+            >
+        </div>
+
+        <!-- LOCATION -->
+        <div class="hero-location">
+            <span></span>
+            PIAZZA DEI GERANI 52 • ROMA
+            <span></span>
+        </div>
+
+        <!-- RATING -->
+        <div class="hero-rating">
+
+            <div class="rating-main">
+                <strong>4,2</strong>
+                <span>★</span>
+            </div>
+
+            <div class="rating-line"></div>
+
+            <div class="rating-info">
+                713 RECENSIONI
+            </div>
+
+            <div class="rating-line"></div>
+
+            <div class="rating-info">
+                10 — 20 € / PERSONA
+            </div>
+
+        </div>
+
+        <!-- TITOLO -->
+        <h1>
+            GERANI
+        </h1>
+
+        <div class="hero-services">
+            BAR
+            <span>•</span>
+            PIZZERIA
+            <span>•</span>
+            ROSTICCERIA
+            <span>•</span>
+            TAVOLA CALDA
+            <span>•</span>
+            TABACCHI
+        </div>
+
+        <!-- TESTO -->
+        <div class="hero-description">
+
+            <p>
+                Il gusto italiano,
+                <em>nel cuore di Roma.</em>
+            </p>
+
+            <span>
+                Pizza, cucina, rosticceria, bar e servizi.
+                Tutto in un unico posto.
+            </span>
+
+        </div>
+
+        <!-- BOTTONI -->
+       <div class="hero-actions">
+
+    <a
+        href="#menu"
+        class="hero-btn hero-btn-gold"
+    >
+        SCOPRI IL MENU
+    </a>
+
+    <a
+        href="tel:0623298169"
+        class="hero-btn hero-btn-outline"
+    >
+        CHIAMACI
+    </a>
+
+</div>
+        <!-- SCROLL -->
+        <div class="hero-scroll">
+
+            <span>SCORRI</span>
+
+            <div class="hero-scroll-line"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- INTRO -->
+        <section class="intro" id="bistrot">
+
+            <div class="section-number">01</div>
+
+            <div class="intro-left reveal">
+
+                <span class="section-label">
+                    <i></i> LA NOSTRA STORIA
+                </span>
+
+                <h2>
+                    Un posto.
+                    <br>
+                    <em>Mille possibilità.</em>
+                </h2>
+
+            </div>
+
+            <div class="intro-right reveal">
+
+    <p class="big-text">
+        Gerani è il luogo dove la tradizione italiana
+        incontra la quotidianità di Roma.
+    </p>
+
+    <p>
+        Un bistrot dove puoi iniziare la giornata con un
+        buon caffè, fermarti per una pizza, scegliere un
+        piatto della cucina, gustare la nostra rosticceria
+        o semplicemente bere qualcosa in compagnia.
+    </p>
+
+    <p>
+        Dalla pizza alla pasta, dai fritti alla carne e al
+        pesce, Gerani propone un menu ampio e pensato per
+        ogni gusto e ogni momento della giornata.
+    </p>
+
+    <p>
+        E non finisce qui: Gerani è anche tabacchi,
+        Lotto, SuperEnalotto e servizi di pagamento online.
+        Tutto in un unico punto, nel cuore di Roma.
+    </p>
+
+    <div class="intro-rating">
+
+        <strong>4,2</strong>
+
+        <div>
+            <div class="stars">★★★★★</div>
+            <span>713 RECENSIONI</span>
+        </div>
+
+    </div>
+
+    <a href="#menu" class="text-link">
+        SCOPRI LA NOSTRA CUCINA <span>→</span>
+    </a>
+
+</div>
+
+          
+
+        </section>
+
+
+        <!-- MARQUEE -->
+        <section class="marquee">
+
+            <div class="marquee-track">
+
+                <span>PIZZA</span>
+                <i>✦</i>
+
+                <span>CUCINA ITALIANA</span>
+                <i>✦</i>
+
+                <span>ROSTICCERIA</span>
+                <i>✦</i>
+
+                <span>BAR</span>
+                <i>✦</i>
+
+                <span>PESCE</span>
+                <i>✦</i>
+
+                <span>TABACCHI</span>
+                <i>✦</i>
+
+                <span>GERANI</span>
+                <i>✦</i>
+
+                 <span>PIZZA</span>
+                <i>✦</i>
+
+                <span>CUCINA ITALIANA</span>
+                <i>✦</i>
+
+                <span>ROSTICCERIA</span>
+                <i>✦</i>
+
+                <span>BAR</span>
+                <i>✦</i>
+
+                <span>PESCE</span>
+                <i>✦</i>
+
+                <span>TABACCHI</span>
+                <i>✦</i>
+
+                <span>GERANI</span>
+                <i>✦</i>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOD VISUAL -->
+        <section class="food-showcase">
+
+            <div class="food-image tilt reveal">
+                <img src="images/PIATTI GERANI 1.jpeg" alt="Piatti Gerani Bistrot">
+                <div class="image-frame"></div>
+            </div>
+
+            <div class="food-copy reveal">
+
+                <span class="section-label">
+                    <i></i> LA CUCINA
+                </span>
+
+                <h2>
+                    Sapori veri.
+                    <br>
+                    <em>Senza complicazioni.</em>
+                </h2>
+
+                <p>
+                    Dalla pasta fresca al pesce, dalla pizza alla
+                    rosticceria: una cucina semplice, generosa e
+                    pensata per essere vissuta ogni giorno.
+                </p>
+
+                <div class="food-stats">
+
+    <div>
+        <strong>01</strong>
+        <span>PIZZERIA</span>
+    </div>
+
+    <div>
+        <strong>02</strong>
+        <span>CUCINA</span>
+    </div>
+
+    <div>
+        <strong>03</strong>
+        <span>PESCE</span>
+    </div>
+
+    <div>
+        <strong>04</strong>
+        <span>ROSTICCERIA</span>
+    </div>
+
+    <div>
+        <strong>05</strong>
+        <span>BAR</span>
+    </div>
+
+    <div>
+        <strong>06</strong>
+        <span>ASPORTO</span>
+    </div>
+
+</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MENU -->
+        <section class="menu-section" id="menu">
+
+            <div class="section-number">02</div>
+
+            <div class="menu-heading reveal">
+
+                <span class="section-label">
+                    <i></i> IL NOSTRO MENU
+                </span>
+
+                <h2>
+                    A tavola,
+                    <em>come piace a noi.</em>
+                </h2>
+
+                <p>
+                    Scopri le nostre proposte, dalla cucina italiana
+                    alla pizza, dal pesce ai contorni.
+                </p>
+
+            </div>
+
+
+            <!-- MENU FILTER -->
+            <div class="menu-tabs">
+
+                <button class="menu-tab active" data-category="antipasti">
+                    Antipasti
+                </button>
+
+                <button class="menu-tab" data-category="primi">
+                    Primi
+                </button>
+
+                <button class="menu-tab" data-category="pesce">
+                    Pesce
+                </button>
+
+                <button class="menu-tab" data-category="carne">
+                    Carne
+                </button>
+
+                <button class="menu-tab" data-category="contorni">
+                    Contorni
+                </button>
+
+                <button class="menu-tab" data-category="pizza">
+                    Pizzeria
+                </button>
+
+                <button class="menu-tab" data-category="bevande">
+                    Bevande
+                </button>
+
+            </div>
+
+
+            <!-- MENU CONTENT -->
+            <div class="menu-grid" id="menuGrid">
+
+                <!-- JS -->
+            </div>
+
+
+            <div class="menu-note">
+                * Alcuni prodotti possono essere surgelati.
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIENCE -->
+        <section class="experience">
+
+            <div class="experience-bg"></div>
+
+            <div class="experience-content reveal">
+
+                <span class="section-label">
+                    <i></i> L'ESPERIENZA GERANI
+                </span>
+
+                <h2>
+                    Non vieni solo
+                    <br>
+                    <em>a mangiare.</em>
+                </h2>
+
+                <p>
+                    Vieni per il caffè.
+                    Rimani per il pranzo.
+                    Torni per la pizza.
+                </p>
+
+                <a href="#prenota" class="gold-button">
+                    <span>VIVI GERANI</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALLERY -->
+        <section class="gallery-section" id="gallery">
+
+            <div class="gallery-heading reveal">
+
+                <span class="section-label">
+                    <i></i> GALLERY
+                </span>
+
+                <h2>
+                    Un assaggio
+                    <em>di Gerani.</em>
+                </h2>
+
+            </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item large reveal">
+                    <img src="images/PIATTI GERANI 1.jpeg" alt="Cucina Gerani">
+                    <div class="gallery-overlay">
+                        <span>CUCINA</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1000&q=85"
+                        alt="Pizza italiana">
+                    <div class="gallery-overlay">
+                        <span>PIZZA</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1000&q=85"
+                        alt="Ristorante italiano">
+                    <div class="gallery-overlay">
+                        <span>ATMOSFERA</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item wide reveal">
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1400&q=85"
+                        alt="Pasta italiana">
+                    <div class="gallery-overlay">
+                        <span>TRADIZIONE</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVICES -->
+        <section class="services" id="servizi">
+
+            <div class="section-number">03</div>
+
+            <div class="services-title reveal">
+
+                <span class="section-label">
+                    <i></i> NON SOLO CUCINA
+                </span>
+
+                <h2>
+                    Tutto quello
+                    <br>
+                    <em>che cerchi.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="services-grid">
+
+                <article class="service-card tilt reveal">
+
+                    <div class="service-icon">
+    <span class="icon-square"></span>
+</div>
+
+                    <span>01</span>
+
+                    <h3>BAR</h3>
+
+                    <p>
+                        Caffè, cappuccini, cornetti e tutto quello
+                        che serve per iniziare bene la giornata.
+                    </p>
+
+                    <a href="#contatti">SCOPRI →</a>
+
+                </article>
+
+
+                <article class="service-card tilt reveal">
+
+                    <div class="service-icon">
+    <span class="icon-square"></span>
+</div>
+
+                    <span>02</span>
+
+                    <h3>ROSTICCERIA</h3>
+
+                    <p>
+                        Prodotti da forno, specialità salate,
+                        focacce e proposte da gustare ogni giorno.
+                    </p>
+
+                    <a href="#menu">SCOPRI →</a>
+
+                </article>
+
+
+                <article class="service-card tilt reveal">
+
+                    <div class="service-icon">
+    <span class="icon-square"></span>
+</div>
+
+                    <span>03</span>
+
+                    <h3>TABACCHI</h3>
+
+                    <p>
+                        Tabacchi e servizi per completare
+                        l'esperienza Gerani in un unico luogo.
+                    </p>
+
+                    <a href="#contatti">SCOPRI →</a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUOTE -->
+        <section class="quote">
+
+            <div class="quote-mark">“</div>
+
+            <blockquote class="reveal">
+                Tutto ciò che cerchi,
+                <em>in un solo posto.</em>
+            </blockquote>
+
+            <span>GERANI • BISTROT • TABACCHI</span>
+
+        </section>
+
+
+     <!-- =========================================
+     PRENOTAZIONI
+========================================= -->
+
+<section class="booking booking-call" id="prenota">
+
+    <div class="booking-info reveal">
+
+        <span class="section-label">
+            <i></i> PRENOTAZIONI
+        </span>
+
+        <h2>
+            Ci vediamo
+            <em>a tavola.</em>
+        </h2>
+
+        <p>
+            Vuoi prenotare un tavolo?
+            Chiamaci direttamente e saremo felici
+            di riservarti il tuo posto.
+        </p>
+
+        <div class="booking-phone">
+
+            <span>PRENOTA TELEFONICAMENTE</span>
+
+            <a href="tel:0623298169">
+                06 2329 8169
+            </a>
+
+        </div>
+
+        <a href="tel:0623298169" class="gold-button booking-call-button">
+            CHIAMA PER PRENOTARE
+        </a>
+
+    </div>
+
+
+    <div class="booking-details reveal">
+
+        <div class="booking-detail">
+
+            <span>INDIRIZZO</span>
+
+            <strong>
+                Piazza dei Gerani 52<br>
+                00172 Roma RM
+            </strong>
+
+        </div>
+
+        <div class="booking-detail">
+
+            <span>ORARI</span>
+
+            <strong>
+                LUN — SAB<br>
+                06:00 — 23:00
+            </strong>
+
+        </div>
+
+        <div class="booking-detail">
+
+            <span>DOMENICA</span>
+
+            <strong>
+                07:00 — 23:00
+            </strong>
+
+        </div>
+
+        <div class="booking-detail">
+
+            <span>PREZZO MEDIO</span>
+
+            <strong>
+                10 — 20 €<br>
+                a persona
+            </strong>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- CONTACT -->
+        <section class="contact" id="contatti">
+
+            <div class="contact-map reveal">
+
+    <iframe
+        src="https://www.google.com/maps?q=Piazza%20dei%20Gerani%2052%2C%2000172%20Roma%20RM&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen>
+    </iframe>
+
+</div>
+            <div class="contact-copy reveal">
+
+                <span class="section-label">
+                    <i></i> VIENI A TROVARCI
+                </span>
+
+                <h2>
+                    Piazza dei Gerani
+                    <em>52.</em>
+                </h2>
+
+                <p>
+                    Roma, Italia
+                </p>
+
+                <div class="contact-buttons">
+
+                    <a href="https://www.google.com/maps/search/?api=1&query=Piazza%20dei%20Gerani%2052%20Roma"
+                        target="_blank"
+                        class="gold-button">
+
+                        <span>APRI MAPPA</span>
+
+
+                    </a>
+
+                    <a href="tel:0623298169" class="outline-button">
+                        CHIAMA
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <img src="images/LOGO GERANI 1.jpeg" alt="Gerani Bistrot">
+
+                <p>
+                    Tutto ciò che cerchi,
+                    <em>in un solo posto.</em>
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <div>
+                    <span>NAVIGA</span>
+                    <a href="#home">Home</a>
+                    <a href="#bistrot">Il Bistrot</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#gallery">Gallery</a>
+                </div>
+
+                <div>
+                    <span>SERVIZI</span>
+                    <a href="#servizi">Bar</a>
+                    <a href="#servizi">Rosticceria</a>
+                    <a href="#servizi">Tabacchi</a>
+                    <a href="#prenota">Prenotazioni</a>
+                </div>
+
+            </div>
+
+           <div class="footer-social">
+
+    <span>SEGUICI</span>
+
+    <div class="social-icons">
+
+        <!-- INSTAGRAM -->
+        <a
+            href="https://www.instagram.com/gerani_bistrot_tabacchi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+        >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                <circle cx="12" cy="12" r="4"></circle>
+                <circle class="dot" cx="17.5" cy="6.5" r="1"></circle>
+            </svg>
+        </a>
+
+        <!-- TIKTOK -->
+        <a
+            href="https://www.tiktok.com/@gerani.bistrot.ta"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok"
+        >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15.5 3c.2 2.2 1.5 3.8 3.5 4.2v3.1c-1.4-.1-2.6-.5-3.5-1.2v6.1c0 3.2-2.1 5.4-5.2 5.4-2.9 0-5.1-2-5.1-4.8 0-3 2.5-5 5.7-4.7v3.1c-1.4-.2-2.5.4-2.5 1.6 0 1 .8 1.7 1.9 1.7 1.2 0 2-.8 2-2.2V3h3.2z"></path>
+            </svg>
+        </a>
+
+    </div>
+
+</div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <span>© 2026 GERANI BISTROT • TABACCHI</span>
+
+            <span>
+                ROMA • ITALIA
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- BACK TO TOP -->
+    <button class="back-top" id="backTop">
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
