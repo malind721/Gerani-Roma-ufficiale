@@ -744,3 +744,59 @@ document
         );
 
     });
+
+    /* =========================================
+   COOKIE CONSENT
+========================================= */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const cookieBanner = document.getElementById("cookieBanner");
+    const cookieAccept = document.getElementById("cookieAccept");
+    const cookieReject = document.getElementById("cookieReject");
+    const manageCookies = document.getElementById("manageCookies");
+
+    if (!cookieBanner) return;
+
+    const cookieChoice = localStorage.getItem("gerani_cookie_consent");
+
+    if (!cookieChoice) {
+        setTimeout(() => {
+            cookieBanner.classList.add("show");
+        }, 800);
+    }
+
+    if (cookieAccept) {
+        cookieAccept.addEventListener("click", () => {
+
+            localStorage.setItem(
+                "gerani_cookie_consent",
+                "accepted"
+            );
+
+            cookieBanner.classList.remove("show");
+        });
+    }
+
+    if (cookieReject) {
+        cookieReject.addEventListener("click", () => {
+
+            localStorage.setItem(
+                "gerani_cookie_consent",
+                "rejected"
+            );
+
+            cookieBanner.classList.remove("show");
+        });
+    }
+
+    if (manageCookies) {
+        manageCookies.addEventListener("click", (event) => {
+
+            event.preventDefault();
+
+            cookieBanner.classList.add("show");
+        });
+    }
+
+});
